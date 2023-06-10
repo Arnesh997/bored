@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color: #ff69b4;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: top;
+}
+
+button:hover {
+    background-color: #ff4f9a;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.activity-list {
+    margin-top: 20px;
+}
+
+.activity-list li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+}
+
+.activity-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Add more CSS styles as desired */

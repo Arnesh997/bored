@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Generated Activities</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generated Activities</h1>
+        <ul class="activity-list">
+            {% for activity in activities %}
+            <li>{{ activity }}</li>
+            {% endfor %}
+        </ul>
+        <form action="/generate_activities" method="POST">
+            <button type="submit">Generate Another Activities List</button>
+        </form>
+    </div>
+</body>
+
+</html>
